@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #F3CCFF;
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    color: #3F0071;
+}
+.container , form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+input[type=text],
+input[type=password]{
+    color:#3F0071;
+    width: 100%;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #A555EC;
+}
+input[type=submit]{
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 4px;
+    outline: none;
+    background-color: #A555EC;
+    border: 2px solid #A555EC;
+    color: #3F0071;
+    font-size: 15px;
+    font-weight: 600;
+}
+

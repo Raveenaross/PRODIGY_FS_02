@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/adduser.css">
+    <title>Add NewUser</title>
+</head>
+<body>
+    <div class="container">
+        <div class="block1">
+        <nav>
+            <ul>
+                <li>BizOps Network</li>
+                <li><a class="sidebar" href="admin.html">Main</a></li>
+                <li><a class="sidebar" href="adduser.html">Add Employee</a></li>
+                <li><a class="sidebar" href="viewusers.html">Team</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="block2">
+            <h1>Employee Management Hub</h1>
+            <div class="formbox">
+                <form action="/adduser" method="post">
+                    <input type="text" name="nm" placeholder="enter employee name..." required>
+                    <input type="text" name="id" placeholder="enter employee id..." required>
+                    <input type="number" name="ph" placeholder="enter employee phone no..." required>
+                    <input type="email" name="addr" placeholder="enter employee address..." required>
+                    <input type="text" name="pro" placeholder="enter employee profession..." required>
+                    <div class="box">
+                        <input type="checkbox" name="wk">
+                        <label for="wk">Working</label>
+                    </div>
+                    <input type="submit" value="Add Employee">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

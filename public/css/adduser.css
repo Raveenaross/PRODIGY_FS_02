@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 80px;
+    color:#243763;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.block1{
+    background-color: #070F2B;
+    width: 20%;
+    height: 100vh;
+}
+.block2{
+    background-color: #DCFFB7;
+    width: 80%;
+}
+li:nth-of-type(1)
+{
+    color: azure;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+    margin-left: 2px;
+}
+li:nth-of-type(2){
+    margin-top:250px;
+    margin-bottom: 10px;
+}
+li:nth-of-type(3){
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sidebar{
+    color:#00FFAB;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sidebar:hover{
+    background-color: #F1F8E8;
+    color:#083358;
+    border-radius: 20px;
+}
+.formbox{
+    margin:50px ;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #163020;
+    align-items: center;
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+label{
+    margin-top: 5px;
+    color: #DCFFB7;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=submit],
+input[type=checkbox]
+{
+    padding: 10px;
+    margin: 10px;
+    width:50%;
+    border-radius: 5px;
+    outline: none;
+    border:2px solid #DDFFBB;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=checkbox]:focus
+{
+    cursor: pointer;
+    box-shadow: 0px 0px  10px #DDFFBB;
+    outline: none;
+}
+
+input[type=text]:nth-of-type(1){
+    margin-top: 50px;
+}
+input[type=submit]{
+    margin-bottom: 50px;
+    width: 30% ;
+    font-weight: 600;
+    background-color:#FF6969;
+    border:2px solid #FF6969;
+    color:#FFF5E1;
+}
+input[type=submit]:focus{
+    box-shadow: 0px 0px 9px #FF6969;
+}
+::placeholder{
+    color: #070F2B;
+    font-weight: 500;
+}
