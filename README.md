@@ -25,7 +25,7 @@ $ mongod
 
 # Runs on : localhost:3000
 
-Features:
+# Features:
 This is an employment management system.
 * Admin login
 * CRUD operations
